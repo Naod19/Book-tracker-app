@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Reading List Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Track Your Reading Habits 📕</h1>
+    <div class="book-container">
+      <div class="search-container">
+        <input type="text" placeholder="Search Book" class="book-search" />
+        <select class="book-filter">
+          <option value="default">Select</option>
+          <option value="read">Read</option>
+          <option value="not-started">Not started</option>
+          <option value="favorite">Favorite</option>
+        </select>
+      </div>
+      <div class="book-tracker-container">
+        <div class="book-list-container"></div>
+      </div>
+      <button class="open-popup">Add Book</button>
+    </div>
+
+    <div class="add-book-popup">
+      <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <input type="text" placeholder="Book Title" class="book-title" />
+        <input type="text" placeholder="Book Author" class="book-author" />
+        <input type="date" class="book-date" />
+        <select class="book-status">
+          <option value="read">Read</option>
+          <option value="not-started">Not Started</option>
+          <option value="favorite">Favorite</option>
+        </select>
+        <button class="add-book">Add Book</button>
+      </div>
+    </div>
+  </body>
+</html>
