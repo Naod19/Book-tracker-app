@@ -1,24 +1,2 @@
-# Mac system files
 .DS_Store
 
-# Logs
-logs
-*.log
-npm-debug.log*
-
-# Dependency directories
-node_modules/
-
-# Environment variables
-.env
-.env.*
-!.env.example
-
-# Build outputs
-dist
-.next
-out
-
-# Vite
-.vite/
-vite.config.js.timestamp-*
